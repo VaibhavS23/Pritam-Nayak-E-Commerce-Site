@@ -1,0 +1,12 @@
+.onclickchange{
+    height: 5vh;
+    width: 100vw;
+   
+    top:20px;
+    position: relative;
+    
+}
+.maintxt{
+    padding-left: 50px;
+    display: flex;
+}

@@ -1,0 +1,41 @@
+.photo-gallery1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.photo-gallery1 .gallery-img {
+  width: 350px; /* Set fixed width */
+  height: 350px; /* Set fixed height */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-gallery1 .gallery-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.photo-gallery1 .photo-section {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 1100px) {
+  .photo-gallery1 {
+    display: flex; /* Keep flex display */
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center items */
+  }
+
+  .photo-gallery1 .gallery-img {
+    width: 350px; /* Set to match .photo-gallery images */
+    height: 350px; /* Set to match .photo-gallery images */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+}

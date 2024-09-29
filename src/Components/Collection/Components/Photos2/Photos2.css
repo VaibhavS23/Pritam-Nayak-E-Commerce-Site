@@ -1,0 +1,32 @@
+.photos {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the two images */
+  padding: 20px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1100px) {
+  .photo-gallery {
+    flex-direction: column; /* Change to column layout */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo-gallery img {
+    width: 350px;   /* Match the same width */
+    height: 350px;  /* Match the same height */
+    object-fit: cover; /* Ensure proper image display */
+    transition: transform 0.3s ease-in-out; /* Transition for hover */
+  }
+
+  .photo-gallery img:hover {
+    transform: scale(1.1); /* Scale effect */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4); /* Shadow effect */
+  }
+}

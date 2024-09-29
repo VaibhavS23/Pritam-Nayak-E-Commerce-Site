@@ -1,0 +1,23 @@
+.positionsticky{
+    position: sticky;
+top: -12%;
+z-index: 2;
+}
+
+.search1{
+    /* 'text-white placeholder-white' : 'text-black placeholder-black' */
+    color: white;
+
+}
+.search1::placeholder{
+    color:white;
+}
+
+.search2{
+    /* 'text-white placeholder-white' : 'text-black placeholder-black' */
+    color: black;
+
+}
+.search2::placeholder{
+    color:black;
+}

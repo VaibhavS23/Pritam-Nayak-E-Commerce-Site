@@ -1,0 +1,23 @@
+.slidertxt{
+font-family: urbaniest;
+font-weight: 400;
+
+}
+.sliderauthor{
+font-family: gallient;
+font-weight: 400;
+}
+
+#inputform{
+    background-image: url('../images/loginabout.jpg');
+    /* height: 100px; */
+    height: 100vh;
+    
+}
+.i1::placeholder{
+    font-family: urbaniest;
+}
+
+.followus{
+    font-family: gallient;
+}

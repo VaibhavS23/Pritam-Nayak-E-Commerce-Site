@@ -1,0 +1,409 @@
+/* .sec5maindiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footerlogo{
+    filter: invert(1);
+    width: 221px;
+}
+.footerul{
+    display: flex;
+    list-style: none;
+    gap: 27vh;
+}
+.footerul1{
+    list-style: none;
+}
+.footerul1>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+.footerul2{
+    list-style: none;
+    color: white;
+    
+}
+.footerul2>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+.footerul3{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.footerul3>li>a{
+    text-decoration: none;
+    font-family: urbaniest;
+}
+.firstdivision{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.footerlogotxt{
+    color: white;
+    font-family: urbaniest;
+}
+.font{
+    font-family: urbaniest;
+
+}
+.lih{
+    font-weight:900;
+}
+
+
+  .seconddevision{
+    height: 20vh;
+    width: 90vw;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+  }
+  .footercopy{
+    color: white;
+    font-family: urbaniest;
+    
+  }
+
+  .thirddivision{
+    height: 40vh;
+  }
+  .footertxt{
+    color: #FAFAFA;
+    font-size: 248px;
+  font-family: gallient;
+    font-weight: 400;
+
+    text-align: center;
+  }
+
+  @media screen and (max-width:767px){
+    .seconddevision{
+        justify-content: center;
+    }
+    .footertxt{
+        text-align: center;
+        font-size: 14vh;
+    }
+    .footerul2{
+        display: none;
+    }
+    .footerul{
+        gap:2vh;
+    }
+    .sec5maindiv{
+        height: 102vh;
+    }
+  }
+
+
+  .input-container {
+    position: relative;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.input-container input {
+    width: 100%;
+    padding: 10px 40px; 
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.input-container input::placeholder{
+    color: black;
+    font: 400;
+}
+
+
+
+.input-container .inp11,.inp12 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#currency{
+    width: 300px;
+    padding: 10px 40px; 
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+
+    
+} */
+
+
+
+
+
+/* Default styles for larger screens (desktops/laptops) */
+.sec5maindiv {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerlogo {
+    filter: invert(1);
+    width: 221px;
+}
+
+.footerul {
+    display: flex;
+    list-style: none;
+    gap: 27vh;
+    position: relative;
+}
+
+.footerul1,
+.footerul2,
+.footerul3 {
+    list-style: none;
+}
+
+.footerul1 > li > a,
+.footerul2 > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+
+.footerul3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.footerul3 > li > a {
+    text-decoration: none;
+    font-family: urbaniest;
+}
+
+.firstdivision {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.footerlogotxt {
+    color: white;
+    font-family: urbaniest;
+}
+
+.font {
+    font-family: urbaniest;
+}
+
+.lih {
+    font-weight: 900;
+}
+
+.seconddevision {
+    height: 20vh;
+    width: 90vw;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.footercopy {
+    color: white;
+    font-family: urbaniest;
+}
+
+.thirddivision {
+    height: 40vh;
+}
+
+.footertxt {
+    color: #FAFAFA;
+    font-size: 248px;
+    font-family: gallient;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input-container input::placeholder {
+    color: black;
+    font-weight: 400;
+}
+
+.input-container .inp11, .inp12 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#currency {
+    width: 300px;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+}
+
+/* Responsive styles for tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .footerlogo {
+        width: 180px;
+    }
+    
+
+    .footerul {
+        gap: 15vh;
+    }
+
+    .footerul3 {
+        align-items: flex-start;
+    }
+
+    .firstdivision {
+        height: 30vh;
+        justify-content: center;
+    }
+
+    .footertxt {
+        font-size: 180px;
+    }
+
+    .seconddevision {
+        width: 85vw;
+        padding: 0 20px;
+    }
+
+    .input-container, #currency {
+        width: 250px;
+    }
+}
+
+/* Responsive styles for mobile phones (below 768px) */
+@media screen and (max-width: 767px) {
+    .sec5maindiv {
+        height: 140vh;
+    }
+
+    .footerul2 {
+        display: none;
+    }
+    .footercopy{
+        text-align: center;
+    }
+
+    .footerul {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .gootermainlogo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .footerlogo {
+        width: 150px;
+    }
+    
+
+    .firstdivision {
+        height: 76vh;
+        justify-content: center;
+    }
+
+    .footertxt {
+        font-size: 14vh;
+        text-align: center;
+    }
+
+    .seconddevision {
+        width: 90vw;
+        justify-content: center;
+    }
+
+    .input-container, #currency {
+        width: 90vw;
+    }
+
+    .transparent-form input, .transparent-form textarea {
+        width: 90vw;
+    }
+
+    .footerlogotxt {
+        text-align: center;
+    }
+
+    .footerul1,.footerul2,.footerul3{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    }
+}

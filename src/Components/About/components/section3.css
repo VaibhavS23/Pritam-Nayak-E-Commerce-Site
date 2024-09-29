@@ -1,0 +1,174 @@
+/* 
+.sec3{
+    
+    width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.orsec3img{
+width: 600px;
+height: 66.667vh;
+}
+.sec31{
+    display: flex;
+    height: 66.667vh;
+    
+    justify-content: space-between;
+    
+}
+.d1txt1{
+    font-family: urbaniest;
+    font-size: 20px;
+}
+.d1txt2{
+    font-family: gallient;
+    font-size: 48px;
+}
+.d1txt3{
+    font-family: urbaniest;
+    font-size: 20px;
+}
+.txtsec3{
+    width: 600px;
+}
+.textsec3pos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.justpos{
+    width: 93.5vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
+
+/* Default styles for larger screens like laptops and desktops */
+.sec3 {
+    width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.orsec3img {
+    width: 600px;
+    height: 66.667vh;
+}
+
+.sec31 {
+    display: flex;
+    height: 66.667vh;
+    justify-content: space-between;
+}
+
+.d1txt1 {
+    font-family: urbaniest;
+    font-size: 20px;
+}
+
+.d1txt2 {
+    font-family: gallient;
+    font-size: 48px;
+}
+
+.d1txt3 {
+    font-family: urbaniest;
+    font-size: 20px;
+}
+
+.txtsec3 {
+    width: 600px;
+}
+
+.textsec3pos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.justpos {
+    width: 93.5vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styles for tablets (between 600px and 1024px) */
+@media only screen and (max-width: 1024px) {
+    .sec3 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .orsec3img {
+        width: 400px;
+        height: auto; /* Adjust the image to fit properly */
+    }
+
+    .sec31 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .d1txt1, .d1txt3 {
+        font-size: 18px;
+    }
+
+    .d1txt2 {
+        font-size: 36px;
+    }
+
+    .txtsec3 {
+        width: 400px;
+        text-align: center;
+    }
+}
+
+/* Styles for mobile phones (below 600px) */
+@media only screen and (max-width: 767px) {
+    .sec3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .orsec3img {
+        width: 96%;
+        height: auto; /* Make sure the image adjusts to screen size */
+    }
+
+    .sec31 {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .d1txt1, .d1txt3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .d1txt2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .txtsec3 {
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .justpos {
+        width: 95%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

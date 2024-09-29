@@ -1,0 +1,179 @@
+
+  /* Default styles for larger screens like laptops and desktops */
+.sec5main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../assets/images/loginabout.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec5main1 {
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sec5txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.up1 {
+  font-family: urbaniest;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.up2 {
+  font-family: gallient;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33vw;
+}
+
+.transparent-form {
+  width: 33vw;
+  border-radius: 10px;
+}
+
+.transparent-form div {
+  margin-bottom: 15px;
+}
+
+.transparent-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.transparent-form input {
+  width: 33vw;
+  color: white;
+  padding: 20px 0;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::placeholder {
+  color: white!important;
+  font-size: 16px;
+  font-family: urbaniest;
+  padding-left: 10px;
+}
+
+.transparent-form button {
+  color: white;
+  padding: 20px 0;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  width: 33vw;
+  margin: auto;
+}
+
+.transparent-form button:hover {
+  background-color: white;
+  color: black;
+  font-family: urbaniest;
+  font-weight: 500;
+}
+
+.transparent-form textarea {
+  padding: 40px 0;
+  width: 33vw;
+  height: 100px;
+  overflow-y: hidden;
+  border: 1px solid white;
+
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Styles for tablets (between 600px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .sec5main {
+      background-size: cover;
+      padding: 20px;
+  }
+
+  .sec5main1 {
+      width: 60vw;
+      gap: 20px;
+  }
+
+  .up1 {
+      font-size: 14px;
+  }
+
+  .up2 {
+      font-size: 36px;
+  }
+
+  .form-container,
+  .transparent-form input,
+  .transparent-form button,
+  .transparent-form textarea {
+      width: 60vw;
+  }
+
+  .transparent-form button {
+      padding: 15px 0;
+  }
+
+  .transparent-form textarea {
+      height: 80px;
+  }
+}
+
+/* Styles for mobile phones (below 600px) */
+@media only screen and (max-width: 767px) {
+  .sec5main {
+      background-size: cover;
+      padding: 10px;
+  }
+
+  .sec5main1 {
+      width: 90vw;
+      gap: 16px;
+  }
+
+  .up1 {
+      font-size: 12px;
+  }
+
+  .up2 {
+      font-size: 28px;
+  }
+
+  .form-container,
+  .transparent-form input,
+  .transparent-form button,
+  .transparent-form textarea {
+      width: 31vw;
+  }
+
+  .transparent-form button {
+      padding: 12px 0;
+  }
+
+  .transparent-form textarea {
+      height: 70px;
+  }
+}

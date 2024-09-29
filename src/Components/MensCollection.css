@@ -1,0 +1,28 @@
+.mencollection{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    }
+    
+    .mencollectiontxt1{
+      font-family: urbaniest;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 14px;
+    }
+    
+    .mencollectiontxt2{
+      font-family: gallient;
+      font-weight: 400;
+      font-size: 65px;
+      line-height: 37.5 px;
+    }
+    .title{
+    font-family:gallient;
+    margin-top: 1rem;
+    }
+    .description{
+    font-family: urbaniest;
+    }

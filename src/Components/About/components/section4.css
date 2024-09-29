@@ -1,0 +1,241 @@
+/* .sec4main{
+    height: 77vh;
+    width: 100vh;
+}
+.sec4maintxt{
+    font-family: gallient;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    width: 64vw;
+}
+.sec4txt{
+    height: 26.11vh;
+    background-color:  #FFF5E3;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sec4cards{
+    height: 50vh;
+    
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4c1{
+    display: flex;
+    flex-direction: column;
+    width: 31vw;
+    height: 50vh;
+
+}
+
+.imgcards{
+    height: 100px;
+    width: 100px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.sec4txt1{
+    text-align: center;
+    width: 20vw;
+    font-style: gallient;
+    font-size:32px ;
+    font-weight: 400;
+}
+.sec4txt2{
+    width: 20vw;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: urbaniest;
+}
+.sec4c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seclist{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+} */
+
+
+
+
+/* Default styles for larger screens like laptops and desktops */
+.sec4main {
+    height: 77vh;
+    width: 100vw;
+}
+
+.sec4maintxt {
+    font-family: gallient;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    width: 64vw;
+}
+
+.sec4txt {
+    height: 26.11vh;
+    background-color: #FFF5E3;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4cards {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4c1 {
+    display: flex;
+    flex-direction: column;
+    width: 31vw;
+    height: 50vh;
+}
+
+.imgcards {
+    height: 100px;
+    width: 100px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.sec4txt1 {
+    text-align: center;
+    width: 20vw;
+    font-family: gallient;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sec4txt2 {
+    width: 20vw;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: urbaniest;
+}
+
+.sec4c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seclist {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+/* Styles for tablets (between 600px and 1024px) */
+@media only screen and (max-width: 1024px) {
+    .sec4main {
+        height: auto;
+        padding: 20px;
+    }
+
+    .sec4maintxt {
+        font-size: 48px;
+        width: 80vw;
+    }
+
+    .sec4txt {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sec4cards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sec4c1 {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .sec4txt1, .sec4txt2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .imgcards {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/* Styles for mobile phones (below 600px) */
+@media only screen and (max-width: 767px) {
+    .sec4main {
+        height: auto;
+        padding: 10px;
+    }
+
+    .sec4maintxt {
+        font-size: 32px;
+        width: 90vw;
+    }
+
+    .sec4txt {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sec4cards {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sec4c1 {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .sec4txt1 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .sec4txt2 {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .imgcards {
+        height: 60px;
+        width: 60px;
+    }
+
+    .seclist {
+        gap: 2px;
+        display: contents;
+    }
+}

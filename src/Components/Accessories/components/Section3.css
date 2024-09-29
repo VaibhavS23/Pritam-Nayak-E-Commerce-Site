@@ -1,0 +1,49 @@
+.sec3maindiv{
+    height: 100vh;
+    width: 100vw;
+}
+
+.secnav{
+    position: relative;
+    z-index: 1;
+}
+
+.secnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.secnav>ul>li>button{
+border: none;
+background-color: rgba(0,0,0 ,0 );
+}
+
+.secnav>ul>li>.default{
+    cursor: pointer;
+    border-bottom: 2px dashed black;
+
+}
+.secnav>ul>li>button:hover{
+    cursor: pointer;
+    border-bottom: 2px dashed black;
+}
+
+.position{
+    width: 367px;
+    height: 522px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+@media screen and (max-width:767px){
+    .sec3maindiv{
+        height: 180vh;
+    }
+}

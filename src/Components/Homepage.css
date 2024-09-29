@@ -1,0 +1,24 @@
+.animated-heading{
+font-family: gallient;
+font-size: 96px;
+font-weight: 400;
+width: 830px;
+animation:fadeinupmain 1.5s forwards; 
+}
+
+#back{
+    background-image: url('../images/homeback1.jpeg');
+    /* height: 100px; */
+    background-position: top;
+}
+
+@keyframes fadeinupmain{
+    0%{
+      opacity: 0;
+  transform: translateY(0);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+  }
