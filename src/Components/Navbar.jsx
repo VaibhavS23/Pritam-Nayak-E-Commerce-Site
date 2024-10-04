@@ -76,14 +76,14 @@ const Navbar = () => {
                     </button>
 
                     <nav className="flex flex-col items-center gap-4 mt-8">
-                        {["NEW IN", "COLLECTION", "ACCESSORIES", "RUNWAY", "VOWS", "ABOUT"].map((item, index) => (
+    {navItems.map((item, index) => (
                             <a
                                 key={index}
-                                href="/"
+                                href={item.path}
                                 className={`block text-lg font-semibold ${isHomePage ? 'text-white' : 'text-black'}`}
                                 onClick={() => setIsMobileMenuOpen(false)}  // Close menu when link is clicked
                             >
-                                {item}
+                                {item.name}
                             </a>
                         ))}
                     </nav>

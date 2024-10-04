@@ -6,6 +6,8 @@ width: 830px;
 animation:fadeinupmain 1.5s forwards; 
 }
 
+
+
 #back{
     background-image: url('../images/homeback1.jpeg');
     /* height: 100px; */
@@ -21,4 +23,14 @@ animation:fadeinupmain 1.5s forwards;
       opacity: 1;
       transform: translateY(-20px);
     }
+  }
+
+  @media (max-width:667px) {
+    .animated-heading {font-family: gallient;
+    font-size: 44px;
+    /* text-align: center; */
+    font-weight: 400;
+    width: 451px;
+    animation: fadeinupmain 1.5s forwards;}
+    
   }
