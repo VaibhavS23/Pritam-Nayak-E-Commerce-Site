@@ -130,29 +130,34 @@
 color: #FAFAFA;
 font-size: 20px;
 font-weight: 400;
-font-family: "Urbanist", sans-serif;
+font-family: "urbaniest";
 text-align: center;
 /* animation:fadeinup 1.5s forwards; */
-text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 2px black;
+/* text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 2px black; */
 
   }
   .foranimation{
     animation:fadeinup 1.5s forwards; 
   }
+  /* .maxwidthcss{
+    max-width: 61vw;
+  } */
   .hero2sttxt{
     color: #FAFAFA;
-    font-size: 64px;
-  font-family: "Gowun Batang", serif;
-    font-weight: 700;
-    line-height: 90px;
+    font-size: 100px;
+  font-family: "gallient";
+    font-weight: 500;
+    line-height: 7rem;
     text-align: center;
+
+    
     /* animation:fadeinup 1.5s forwards; */
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 3px black;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 3px black; */
     
   
   }
   .herotextmain{
-    width: 50vw;
+    width: 76vw;
   }
   .fortxtheropositioning{
     height: 60vh;
@@ -173,7 +178,7 @@ transform: translateY(0);
   }
 }
 
-  @media screen and (max-width:767px){
+  @media(max-width:767px){
     .secli{
       display: none;
     }
@@ -184,6 +189,14 @@ transform: translateY(0);
     .head1stdiv{
       height: 7vh;
     }
+.hero2sttxt{
+  font-size: 51px;
+  width: 78vw;
+  line-height: 4rem;
+}
+
+
+
   }
 
   .navdiv{

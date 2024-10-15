@@ -28,7 +28,7 @@ const home = () => {
           <p className="hero1sttxt foranimation">
           Meet Fashion trends
           </p>
-          <div className="">
+          <div className="maxwidthcss">
           <p  className="hero2sttxt foranimation">
           Bold Impression with Striking Accessories
           </p>

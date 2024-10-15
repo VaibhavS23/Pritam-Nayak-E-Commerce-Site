@@ -12,7 +12,7 @@
     align-items: center;
 }
 .newheading{
-    font-family: "Gowun Batang", serif;
+    font-family: "gallient";
     font-weight: 400;
     line-height: 90px;
     font-size: 56px;
@@ -45,7 +45,7 @@ justify-content: center;
 .forsec1font{
     font-size: 20px;
 font-weight: 400;
-font-family: "Urbanist", sans-serif;
+font-family: "urbaniest"
 }
 
 @media screen and (max-width:767px){
