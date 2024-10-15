@@ -1,8 +1,8 @@
 import React from 'react'
 import './section3.css'
 
-import sec31img from '../assets/images/about12.png'
-import sec32img from '../assets/images/about13.png'
+import sec31img from '../assets/images/aboutsec1.JPG'
+import sec32img from '../assets/images/aboutsec2.JPG'
 import sec33img from '../assets/images/about14.png'
 const section3 = () => {
   return (

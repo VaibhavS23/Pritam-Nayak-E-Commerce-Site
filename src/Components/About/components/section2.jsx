@@ -1,6 +1,6 @@
 import React from 'react'
 import './section2.css'
-import sec2heroimg from '../assets/images/about11.png'
+import sec2heroimg from '../assets/images/aboutsecmain.JPG'
 const section2 = () => {
   return (
     <div className='sec2main'>
