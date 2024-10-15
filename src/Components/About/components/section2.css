@@ -1,35 +1,4 @@
-/* .textsec{
-    padding: 20px 50px 20px 50px;
-    display: flex;
-    gap: 12px;
-    flex-direction: column;
-    width: 93vw;
-}
-.about{
-    font-family: gallient;
-    
-    font-weight: 400;
-    font-size: 56px;
-}
 
-.imagediv{
-    padding: 20px 50px 20px 50px;
-}
-.sec2heroimg{
-    width: 1820px;
-    height: 700px;
-
-}
-.sec2main{
-    height: 114vh;
-}
-.txt{
-    font-family:urbaniest;
-font-weight: 400;
-font-size: 20px;
-
-    
-} */
 
 
 
@@ -100,7 +69,7 @@ font-size: 20px;
 @media only screen and (max-width: 767px) {
     .textsec {
         padding: 10px 15px;
-        width: 91vw;
+        width: 100vw;
     }
 
     .about {

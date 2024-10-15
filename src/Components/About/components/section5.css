@@ -162,12 +162,12 @@
       font-size: 28px;
   }
 
-  .form-container,
+  /* .form-container,
   .transparent-form input,
   .transparent-form button,
   .transparent-form textarea {
-      width: 31vw;
-  }
+      
+  } */
 
   .transparent-form button {
       padding: 12px 0;
