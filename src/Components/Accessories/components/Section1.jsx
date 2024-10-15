@@ -17,8 +17,8 @@ const Section1 = () => {
 </div>
 <div>
   <div className='sec1cardcontainer'>
-  <ul className='sec1ul'>
-    <li><a href="">
+  <ul className='sec1ul grid-container'>
+    <li className='item1'><a href="">
       <div >
         <img className='card1' src={card1} alt="" />
         <div className='card1text'>
@@ -30,7 +30,7 @@ const Section1 = () => {
         </div>
       </div>
       </a></li>
-    <li><a href="">
+    <li  className='item2'><a href="">
     <img className='card1' src={card2} alt="" />
     <div className='card1text'>
           
@@ -40,7 +40,7 @@ const Section1 = () => {
           
         </div>
       </a></li>
-    <li><a href="">
+    <li  className='item3'><a href="">
     <img className='card1' src={card3} alt="" />
     <div className='card1text'>
           
@@ -50,7 +50,7 @@ const Section1 = () => {
           
         </div>
       </a></li>
-    <li><a href="">
+    <li  className='item4'><a href="">
     <img className='card1' src={card4} alt="" />
     <div className='card1text'>
           

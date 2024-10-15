@@ -59,6 +59,40 @@ justify-content: center;
         display:contents;
     }
     .section1{
-        height: 180vh;
+        height: 130vh;
     }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
+        grid-template-rows: 1fr 1fr; /* Creates two rows of equal height */
+        gap: 10px; /* Adds space between the grid items */
+      }
+      
+      .item1 {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      
+      .item2 {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      
+      .item3 {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      
+      .item4 {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      .card1{
+        height: 352px;
+        
+    }
+
+
 }

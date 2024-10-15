@@ -42,14 +42,14 @@ const Section3 = () => {
 
       <div>
       <div className='sec1cardcontainer'>
-  <ul className='sec1ul'>
-  <li><a href="">
+  <ul className='sec1ul grid-container'>
+  <li className='broochcontainer' ><a href="">
       <div  className='card1 position' style={{ backgroundImage:`url(${maincard})`,backgroundRepeat:"no-repeat",backgroundSize:"494px 570px" }}>
         {/* <img className='card1 position' src={maincard} alt="" /> */}
         <p className='broocktxt hero2sttxt'>Brooch</p>
       </div>
       </a></li>
-    <li><a href="">
+    <li className='item1'><a href="">
       <div >
         <img className='card1' src={card1} alt="" />
         <div className='card1text'>
@@ -61,7 +61,7 @@ const Section3 = () => {
         </div>
       </div>
       </a></li>
-    <li><a href="">
+    <li className='item2'><a href="">
     <img className='card1' src={card2} alt="" />
     <div className='card1text'>
           
@@ -71,7 +71,7 @@ const Section3 = () => {
           
         </div>
       </a></li>
-    <li><a href="">
+    <li className='item3'><a href="">
     <img className='card1' src={card3} alt="" />
     <div className='card1text'>
           
@@ -81,7 +81,18 @@ const Section3 = () => {
           
         </div>
       </a></li>
-    
+    <li className='item4'>
+    <a href="">
+    <img className='card1' src={card3} alt="" />
+    <div className='card1text'>
+          
+          <p className='forsec1font' >Green Western Dress</p>
+          
+          <p>&#10216; USD &#10217; 	&#36;1000</p>
+          
+        </div>
+      </a>
+    </li>
   </ul>
   </div>
 </div>

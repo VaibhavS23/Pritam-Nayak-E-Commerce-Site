@@ -38,7 +38,7 @@
     color:#fff;
     font-size: 23px;
     letter-spacing: 3px;
-    font-family: 'Lato';
+    font-family: 'urbaniest';
     font-weight: 600;
     outline: none;
     cursor: pointer;
@@ -151,16 +151,24 @@
 }
 @media screen and (max-width:767px){
     .mainsec4{
-        height: 75vh;
+        height: 63vh;
+        backgroundSize:100vw 70vh;
     }
     .sec4frttxt{
         font-weight: normal;
-        font-size: 51px;
+        font-size: 37px;
         line-height: normal;
 
     }
     .secsectxt{
-        font-size: 20px;
+        font-size: 11px;
         width: 64vw;
     }
+    .sec4btn{
+width: 111px;
+height: 30px;
+font-size: 15px;
+    }
+
+
 }
